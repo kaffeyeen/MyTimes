@@ -1,8 +1,17 @@
 
 body {
   margin: 0;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
 }
-/* Header */ 
+
+h1 {
+  font-size: 18px;
+}
+
+
+
+/* Header */
 .header {
   display: flex;
   font-family: "Verdana", sans-serif;
@@ -31,3 +40,37 @@ body {
   padding-right: 58px;
   word-spacing: 20px;
   }
+/*main content */
+
+.main {
+  display: flex;
+  padding-top: 80px;
+  border: 10px solid black;
+  flex-flow:column wrap;
+  justify-content: space-around;
+
+}
+.large {
+width: 630px;
+border: 5px solid black;
+flex-direction: column;
+
+}
+.medium {
+width: 300px;
+border: 5px solid black;
+flex-direction: column;
+}
+.small {
+width: 240px;
+border: 5px solid black;
+flex-direction: column;
+}
+.concert { border: 1px solid black;}
+.orca { border: 1px solid black;}
+.earth { border: 1px solid black;}
+.burger { border: 1px solid black;}
+.research { border: 1px solid black;}
+.fbi{ border: 1px solid black;}
+.cats { border: 1px solid black;}
+.news { border: 1px solid black;}
